@@ -1,4 +1,4 @@
-Ten projekt zawiera proste API stworzone przy użyciu Flask w Jupyter Notebook. (Uwaga! Aplikacja uruchamiana jest na porcie 5001 - dostępna pod adresem http://127.0.0.1:5001/)
+Ten projekt zawiera proste API stworzone przy użyciu Flask w Jupyter Notebook. (Uwaga! Aplikacja uruchamiana jest na porcie 5001 - dostępna pod adresem http://127.0.0.1:5001/).
 Aby je uruchomić lokalnie należy:
 
 1. Zainstaluj zależności:
