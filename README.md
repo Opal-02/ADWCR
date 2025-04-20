@@ -1,14 +1,19 @@
 Ten projekt zawiera proste API stworzone przy użyciu Flask w Jupyter Notebook. 
-(Uwaga! Aplikacja uruchamiana jest na porcie 5001 - dostępna pod adresem http://127.0.0.1:5001/)
 Aby uruchomić aplikację lokalnie należy:
 
 1. Zainstaluj zależności:
 pip install -r requirements.txt
 
-2. Uruchom serwer:
+2. Utworzenie kontenera na podstawie pliku Dockerfile
+docker build -t modelML 
+
+3. Uruchomienie kontenera
+docker run -p 5000:5000 modelML
+
+4. Uruchom serwer:
 python app.py
 
-3. Lista podstron w aplikacji:
+5. Lista podstron w aplikacji:
 `/` -> output: Witaj w moim API!
 `/mojastrona` -> output: To jest moja strona!
 `/hello?name=Imie` -> output: Hello Imie!
